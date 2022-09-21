@@ -32,4 +32,5 @@ jobs:
           password: ${{secrets.SERVERPASSWORD}}
           port: 22
           source: "node"
-          target: ${{secrets.TARGET}}
+          # target: ${{secrets.TARGET}}
+          target: /root/qiniuNode
