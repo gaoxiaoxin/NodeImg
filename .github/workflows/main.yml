@@ -28,6 +28,6 @@ jobs:
           username: root
           password: ${{secrets.SERVERPASSWORD}}
           port: 22
-          source: "node"
+          source: "node/*"
           # target: ${{secrets.TARGET}}
           target: "/root/qiniuNode"
